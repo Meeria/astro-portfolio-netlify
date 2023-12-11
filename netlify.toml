@@ -7,8 +7,8 @@
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
   #[[redirects]]
-  #  from = "/* /index.html 200"
-  #  to = "/* /index.html 200"
+  #  from = "/*"
+  #  to = "index.astro"
   #  status = 200
 
   ## (optional) Settings for Netlify Dev
