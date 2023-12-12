@@ -54,7 +54,7 @@ export const projects = [
 		timeframe: "Mai-Juin 2023",
 		title: "Monitoring GDA",
 		description: "Interface permettant de suivre en direct les appels du call center de Carrefour France Administratif",
-		url: "/monitoring.astro",
+		url: "/monitoring.html",
 		tech: "JavaScript, TypeScript, CSS, HTML, SQL, GCP, Big Query, Figma",
 	},
 	{
