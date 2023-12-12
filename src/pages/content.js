@@ -24,7 +24,7 @@ export const work = [
 		to: "Août 2023",
 		role: "Mise en rayon",
 		org: "Leclerc",
-		org_url: "https://www.leclerc.fr/",
+		org_url: "https://www.e.leclerc/",
 		location: "France, Saint-lô",
 		skills: "Mise en rayon en supermarché dans un temps donné"
 	},
