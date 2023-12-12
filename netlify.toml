@@ -8,7 +8,7 @@
   ## Not needed for static site generators.
   [[redirects]]
   from = "/*"
-  to = ".vercel/output/functions/render.func/dist/chunks/index@_@astro.42f98703.mjs"
+  to = "/.vercel/output/functions/render.func/dist/chunks/index@_@astro.42f98703.mjs"
   status = 200
 
   ## (optional) Settings for Netlify Dev
