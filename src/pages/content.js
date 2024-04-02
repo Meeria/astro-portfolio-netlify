@@ -4,7 +4,7 @@ export const designation = "Etudiant développeur Web"
 export const location = "France, Caen"
 //export const pronouns = "il"
 //export const website = "https://petergriffin.com"
-
+git 
 // About
 export const about = "Etudiant en 2ème année de BTS SIO (Service Informatique aux Organisations) option SLAM (Solutions Logicielles et Applications Métiers) à CaenSup Sainte-Ursule. JAVA, JavaScript, SQL, PHP, Python, Spring, HTML, CSS"
 
