@@ -1,5 +1,5 @@
 // Personal Information --> #hero section
-export const name = "Denier d'Aprigny Mériadec"
+export const name = "Denier d'Aprigny Mériadec test"
 export const designation = "Etudiant développeur Web"
 export const location = "France, Caen"
 //export const pronouns = "il"
