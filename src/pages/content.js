@@ -53,7 +53,7 @@ export const projects = [
 		timeframe: "Janv - Fev 2024",
 		title: "Certification",
 		description: "Systeme de certification déstiné à la formation des utilisateurs.",
-		url: "/certification.html",
+		url: "/test.html",
 		tech: "React, TypeScript, CSS, HTML, Next.js, Kotlin, SpringBoot,Cassandra (no sql), Figma",
 	},
 	{
