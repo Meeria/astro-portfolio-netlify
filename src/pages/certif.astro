@@ -1,0 +1,95 @@
+---
+import * as CONTENT from "./content";
+import Container from "../components/Container.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<!DOCTYPE html>
+<html lang="fr" style="background-color: hsl(0, 0%, 0%);">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Certification / SEO Jungle</title>
+        <link href="style.css" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+
+    <body style="font-family:Manrope; margin-left: 50px;margin-right: 50px;">
+        <h1 style="color:hsl(189, 87%, 97%);">Certification</h1>
+        <p style="color: hsl(0, 0%, 67%);">
+            Première prise en main de React avec le développement d'un systeme
+            de certifications.
+        </p>
+
+        <div class="text" style="display:flex;">
+            <!-- video1 -->
+            <div style="margin-left: 150px;">
+                <p style="color:hsl(0, 0%, 67%);line-height: 27px;">
+                    <strong style="color:white;"
+                        >SEO Jungle Certifications</strong
+                    > représente une solution complète pour l'apprentissage et la
+                    certification en référencement naturel, soutenue par une infrastructure
+                    technologique robuste. Sur le plan technique, la plateforme utilise
+                    <strong style="color:white;">Kotlin</strong> avec le framework
+                    <strong style="color:white;">Spring Boot</strong> pour son backend,
+                    assurant ainsi une performance fiable et évolutive. Côté frontend,
+                    elle s'appuie sur <strong style="color:white;"
+                        >TypeScript</strong
+                    > avec le framework <strong style="color:white;"
+                        >Next.js</strong
+                    >, offrant une expérience utilisateur fluide et réactive. La
+                    gestion des données est assurée par <strong
+                        style="color:white;">Cassandra</strong
+                    >, une base de données <strong style="color:white;"
+                        >NoSQL</strong
+                    >
+                    hautement évolutive et performante. Cette combinaison de technologies
+                    de pointe permet à SEO Jungle Certifications de fournir un environnement
+                    d'apprentissage sécurisé et fiable, adapté aux besoins en constante
+                    évolution des utilisateurs. Grâce à cette infrastructure technique
+                    solide, la plateforme offre une expérience d'apprentissage et
+                    de certification optimale dans le domaine complexe du référencement
+                    naturel.
+                </p>
+            </div>
+        </div>
+
+        //Second Bloc
+
+        <div class="text" style="display:flex;justify-content: end;">
+            <div style="margin-right: 150px;">
+                <h3 style="color:hsl(189, 87%, 97%);">
+                    Technologies utilisées :
+                </h3>
+                <ul style="color:hsl(0, 0%, 67%);">
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Kotlin</li>
+                    <li>Next.js</li>
+                    <li>SpringBoot</li>
+                    <li>Cassandra (no sql)</li>
+                </ul>
+                <h3 style="color:hsl(189, 87%, 97%);">
+                    Compétences validées :
+                </h3>
+                <ul style="color:hsl(0, 0%, 67%);">
+                    <li>
+                        Analyser les objectifs et les modalités d’organisation
+                        d’un projet
+                    </li>
+                    <li>
+                        Évaluer les indicateurs de suivi d’un projet et analyser
+                        les écarts
+                    </li>
+                    <li>Traiter des demandes concernant les applications</li>
+                    <!-- Ajoutez ici les compétences validées par votre projet -->
+                </ul>
+            </div>
+            <!-- video2 -->
+        </div>
+    </body>
+</html>
