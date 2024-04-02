@@ -10,6 +10,15 @@ export const about = "Etudiant en 2ème année de BTS SIO (Service Informatique 
 // Work Experience --> #work section
 export const work = [
 	{
+		from: "Janvier 2024",
+		to: "Fevrier 2024",
+		role: "Stagiaire Developpeur full stack",
+		org: "Zaacom / SEO Jungle",
+		org_url: "https://www.zaacom.fr/?utm_term=zaacom&utm_campaign=Branding&utm_source=adwords&utm_medium=ppc&hsa_acc=6953969565&hsa_cam=2065399647&hsa_grp=76504498535&hsa_ad=366548972056&hsa_src=g&hsa_tgt=kwd-329926153656&hsa_kw=zaacom&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMI0v-b3JOjhQMVo0hBAh1rHQnGEAAYASAAEgI5vPD_BwE",
+		location: "France, Caen",
+		skills: "Développement d'un systeme de certification (quizz, modules, côté admin...)"
+	},
+	{
 		from: "Mai 2023",
 		to: "Juin 2023",
 		role: "Stagiaire Developpeur / Data Analyst",
@@ -35,20 +44,18 @@ export const work = [
 		org_url: "https://www.lecapitaine.com/fr-fr",
 		location: "France, Saint-lô",
 		skills: "Montage d’accessoires sur des véhicules frigorifiques"
-	},
-	{
-		from: "Juillet 2018",
-		to: "Juin 2019",
-		role: "Soldat réserviste",
-		org: "Armée de Terre",
-		org_url: "https://www.defense.gouv.fr/terre",
-		location: "France, SAINT-AUBIN DU CORMIER",
-		skills: "Soldat réserviste : tir, surveillance, activités physiques, sécurisation."
 	}
 ]
 
 // Projects --> #project section
 export const projects = [
+	{
+		timeframe: "Janv - Fev 2024",
+		title: "Certification",
+		description: "Systeme de certification déstiné ",
+		url: "/certification.html",
+		tech: "React, TypeScript, CSS, HTML, Next.js, Kotlin, Cassandra (no sql), Figma",
+	},
 	{
 		timeframe: "Mai-Juin 2023",
 		title: "Monitoring GDA",
