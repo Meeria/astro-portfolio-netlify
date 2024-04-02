@@ -52,9 +52,9 @@ export const projects = [
 	{
 		timeframe: "Janv - Fev 2024",
 		title: "Certification",
-		description: "Systeme de certification déstiné ",
+		description: "Systeme de certification déstiné à la formation des clients.",
 		url: "/certification.html",
-		tech: "React, TypeScript, CSS, HTML, Next.js, Kotlin, Cassandra (no sql), Figma",
+		tech: "React, TypeScript, CSS, HTML, Next.js, Kotlin, SpringBoot,Cassandra (no sql), Figma",
 	},
 	{
 		timeframe: "Mai-Juin 2023",
